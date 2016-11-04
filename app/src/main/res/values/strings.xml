@@ -2,4 +2,5 @@
     <string name="app_name">Alotto 2</string>
     <string name="bonHint"><i>bonus numbers</i></string>
     <string name="numHint"><i>your numbers</i></string>
+    <string name="select">Select game type</string>
 </resources>

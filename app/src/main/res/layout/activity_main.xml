@@ -88,7 +88,8 @@
             android:height="30dp"
             android:background="@drawable/custom_button"
             android:id="@+id/genBtn"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            tools:ignore="RtlSymmetry" />
 
         <Button
             android:layout_width="wrap_content"
@@ -100,7 +101,8 @@
             android:background="@drawable/custom_button"
             android:text="Clear"
             android:id="@+id/clearBtn"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            tools:ignore="RtlSymmetry" />
 
     </LinearLayout>
 
@@ -135,6 +137,7 @@
             android:paddingLeft="50dip"
             android:background="@drawable/custom_button"
             android:id="@+id/loadBtn"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            tools:ignore="RtlSymmetry" />
     </LinearLayout>
 </RelativeLayout>

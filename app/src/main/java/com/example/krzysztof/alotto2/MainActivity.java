@@ -145,7 +145,8 @@ public class MainActivity extends AppCompatActivity {
                     getDailyMillion();
                 }
                 else {
-                    Toast.makeText(getBaseContext(), "Select game type",
+                    String select = getString(R.string.select);
+                    Toast.makeText(getBaseContext(), select,
                             Toast.LENGTH_LONG).show();
                     numberView.setText(" ");
                     bonusView.setText(" ");
