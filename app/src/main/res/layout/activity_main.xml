@@ -74,7 +74,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/linearLayout3"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="50dp"
         android:id="@+id/linearLayout4">
 
         <Button
@@ -83,8 +83,8 @@
             android:text="Generate"
             android:layout_marginRight="10dp"
             android:gravity="left|center_vertical"
-            android:paddingLeft="30dip"
-            android:width="130dp"
+            android:paddingLeft="35dip"
+            android:width="140dp"
             android:height="30dp"
             android:background="@drawable/custom_button"
             android:id="@+id/genBtn"
@@ -94,7 +94,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:width="130dp"
+            android:width="140dp"
             android:height="30dp"
             android:gravity="left|center_vertical"
             android:paddingLeft="45dip"
@@ -102,7 +102,8 @@
             android:text="Clear"
             android:id="@+id/clearBtn"
             android:textColor="#ffffff"
-            tools:ignore="RtlSymmetry" />
+            tools:ignore="RtlSymmetry"
+            android:elevation="0dp" />
 
     </LinearLayout>
 
@@ -112,27 +113,29 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/linearLayout4"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:weightSum="1">
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Save"
             android:layout_marginRight="10dp"
-            android:width="130dp"
+            android:width="140dp"
             android:height="30dp"
             android:gravity="left|center_vertical"
             android:paddingLeft="50dip"
             android:background="@drawable/custom_button"
             android:id="@+id/saveBtn"
             android:textColor="#ffffff"
-            tools:ignore="RtlSymmetry" />
+            tools:ignore="RtlSymmetry"
+            android:layout_weight="0.66" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Load"
-            android:width="130dp"
+            android:width="140dp"
             android:height="30dp"
             android:gravity="left|center_vertical"
             android:paddingLeft="50dip"
