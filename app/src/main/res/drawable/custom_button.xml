@@ -5,7 +5,7 @@
                 android:centerColor="#49a450"
                 android:endColor="#2d9935"
                 android:angle="90"/>
-            <corners android:radius="5dp"/>
+            <corners android:radius="20dp"/>
             <stroke android:width="2dp" android:color="#2b8a31"/>
             <padding android:left="15dp" android:top="5dp" android:bottom="5dp"/>
         </shape>
@@ -18,7 +18,7 @@
                 android:centerColor="#31d93d"
                 android:endColor="#2d9935"
                 android:angle="90"/>
-            <corners android:radius="5dp"/>
+            <corners android:radius="20dp"/>
             <stroke android:width="5dp" android:color="#2b8a31"/>
             <padding android:left="5dp" android:top="5dp" android:bottom="5dp"/>
         </shape>
