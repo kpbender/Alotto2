@@ -1,12 +1,12 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="false">
         <shape android:shape="rectangle">
-            <gradient android:startColor="#7fb517"
-                android:centerColor="#49a450"
-                android:endColor="#2d9935"
+            <gradient android:startColor="#1769b5"
+                android:centerColor="#4972a4"
+                android:endColor="#817bda"
                 android:angle="90"/>
-            <corners android:radius="20dp"/>
-            <stroke android:width="2dp" android:color="#2b8a31"/>
+            <corners android:radius="30dp"/>
+            <stroke android:width="2dp" android:color="#79a4c4"/>
             <padding android:left="15dp" android:top="5dp" android:bottom="5dp"/>
         </shape>
     </item>
@@ -14,13 +14,13 @@
         <shape android:shape="rectangle">
             android:shape="rectangle"
             xmlns:android="http://schemas.android.com/apk/res/android">
-            <gradient android:startColor="#176eb5"
-                android:centerColor="#3142d9"
-                android:endColor="#5f2d99"
+            <gradient android:startColor="#4191d2"
+                android:centerColor="#4e4bae"
+                android:endColor="#837fb1"
                 android:angle="90"/>
-            <corners android:radius="20dp"/>
-            <stroke android:width="5dp" android:color="#5f2b8a"/>
-            <padding android:left="5dp" android:top="5dp" android:bottom="5dp"/>
+            <corners android:radius="30dp"/>
+            <stroke android:width="4dp" android:color="#79a4c4"/>
+            <padding android:left="4dp" android:top="4dp" android:bottom="4dp"/>
         </shape>
     </item>
 </selector>
